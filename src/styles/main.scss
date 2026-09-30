@@ -1,26 +1,19 @@
-// @use 'abstracts/variables';
-
 // Components
 @use 'components';
 
-// override colors
+// Theme colors, per https://designsystem.utah.gov/resources/gettingStartedDeveloper#h3-css-color-overrides
 .utah-design-system {
-  /*--primary-color: #056977;
-  --primary-color-dark: #044b55;
-  --primary-color-light: #0CA4A5;*/
-
   --primary-color: #0258BB;
   --primary-color-dark: #0E1C3B;
   --primary-color-light: #C1CFE7;
 
-  /*--secondary-color: #774f3a;*/
   --secondary-color: #377E72;
-  --secondary-color-dark: #4c3326;
-  --secondary-color-light: #97654a;
+  --secondary-color-dark: #24544C;
+  --secondary-color-light: #E3EFED;
 
-  --accent-color: #ffb100;
-  --accent-color-dark: #745a1e;
-  --accent-color-light: #fff9ec;
+  --accent-color: #FFB100;
+  --accent-color-dark: #745A1E;
+  --accent-color-light: #FFF9EC;
 
   --header-primary-color: #0E1C3B;
 }

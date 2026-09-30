@@ -60,7 +60,7 @@ export function App() {
           buildMenuItem('Our Team', '/about'),
           {
             actionUrl: {
-              url: 'https://github.com/Josh-Liddell/risk-analysis-website',
+              url: 'https://github.com/Josh-Liddell/risk-analytics-website',
               openInNewTab: true,
             },
             title: 'Code Repository',
@@ -89,8 +89,15 @@ export function App() {
       }
     });
   }, [navigate, location.pathname]);
+
+  useEffect(() => {
+    if (!location.hash) {
+      window.scrollTo(0, 0);
+    }
+  }, [location.pathname, location.hash]);
+
   return (
-    <div className={location.pathname === '/about' ? 'team-page-bg' : ''}>
+    <div>
       <div id="utah-header-target" />
       <Routes>
         <Route path="/" element={<HomeLanding />} />

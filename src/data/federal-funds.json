@@ -1,0 +1,565 @@
+{
+  "meta": {
+    "sefaFiscalYear": "SFY 2025",
+    "cobiBudgetPeriod": "FY2026–27",
+    "sources": {
+      "sefa": "Schedule of Expenditures of Federal Awards (audited actual federal spending)",
+      "cobi": "Legislature's appropriations budget (all fund sources)"
+    },
+    "caveats": [
+      "SEFA and COBI cover different periods and concepts (actual spending vs. appropriated budget authority); their federal totals differ by about 6–15% and that gap is expected.",
+      "Only one year of data is available, so no year-over-year trends are shown.",
+      "Stress tests are flat percentage cuts, not a probability model or forecast.",
+      "Universities show little federal money in COBI because research and student aid are largely outside the appropriations process."
+    ],
+    "cutScenarios": [
+      0.1,
+      0.25,
+      0.5
+    ],
+    "exposureThresholds": {
+      "high": 0.5,
+      "moderate": 0.25
+    }
+  },
+  "headline": {
+    "sefaFederalTotal": 10480498629,
+    "sefaFederalExCovid": 9687495358,
+    "sefaCovidEra": 793003271,
+    "cobiAllFunds": 32486384400,
+    "cobiFederalFunds": 9115438500,
+    "cobiOwnSource": 23370945900,
+    "ownSourceDependency": 0.448441,
+    "ownSourceDependencyExCovid": 0.41451,
+    "allFundsFederalShare": 0.280593,
+    "top10Total": 6225717250,
+    "top10Share": 0.594029,
+    "top10Hhi": 3692.9,
+    "toSubrecipients": 1192610855,
+    "viaPassThrough": 678035524,
+    "byDivision": {
+      "Component Units": 1842010086,
+      "Primary Government": 8638488543
+    }
+  },
+  "areas": [
+    {
+      "id": "health-human-services",
+      "label": "Health & Human Services",
+      "total": 5134548415,
+      "share": 0.489915,
+      "federalAgencies": [
+        "Department of Health and Human Services"
+      ],
+      "note": null
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "total": 1972693393,
+      "share": 0.188225,
+      "federalAgencies": [
+        "Department of Agriculture",
+        "Department of Education"
+      ],
+      "note": "Includes USDA-funded school meal programs (Child Nutrition Cluster)."
+    },
+    {
+      "id": "food-assistance-agriculture",
+      "label": "Food Assistance & Agriculture",
+      "total": 657621780,
+      "share": 0.062747,
+      "federalAgencies": [
+        "Department of Agriculture"
+      ],
+      "note": null
+    },
+    {
+      "id": "transportation",
+      "label": "Transportation",
+      "total": 595229389,
+      "share": 0.056794,
+      "federalAgencies": [
+        "Department of Transportation"
+      ],
+      "note": null
+    },
+    {
+      "id": "labor-workforce",
+      "label": "Labor & Workforce",
+      "total": 402422950,
+      "share": 0.038397,
+      "federalAgencies": [
+        "Department of Labor"
+      ],
+      "note": null
+    },
+    {
+      "id": "other",
+      "label": "All other federal agencies (26)",
+      "total": 1717982702,
+      "share": 0.163922,
+      "federalAgencies": [
+        "Corporation for National and Community Service",
+        "Department of Commerce",
+        "Department of Defense",
+        "Department of Energy",
+        "Department of Homeland Security",
+        "Department of Housing and Urban Development",
+        "Department of Justice",
+        "Department of State",
+        "Department of Veterans Affairs",
+        "Department of the Interior",
+        "Department of the Treasury",
+        "Election Assistance Commission",
+        "Environmental Protection Agency",
+        "Equal Employment Opportunity Commission",
+        "Executive Office of the President",
+        "Federal Communications Commission",
+        "General Services Administration",
+        "Miscellaneous",
+        "National Aeronautics & Space Administration",
+        "National Archives & Records Administration",
+        "National Foundation on the Arts and the Humanities",
+        "National Science Foundation",
+        "Nuclear Regulatory Commission",
+        "Small Business Administration",
+        "Social Security Administration",
+        "U. S. Agency for International Development"
+      ],
+      "note": null
+    }
+  ],
+  "agencies": [
+    {
+      "id": "veterans-and-military-affairs",
+      "name": "Veterans and Military Affairs",
+      "sefaName": "Veterans and Military Affairs, Department of",
+      "cobiName": "Veterans and Military Affairs",
+      "division": "Primary Government",
+      "cobiTotalBudget": 73263600,
+      "cobiFederalFunds": 63429100,
+      "cobiFederalPct": 0.865766,
+      "sefaFederalExpenditures": 58770490,
+      "tier": "High"
+    },
+    {
+      "id": "utah-national-guard",
+      "name": "Utah National Guard",
+      "sefaName": "Utah National Guard",
+      "cobiName": "Utah National Guard",
+      "division": "Primary Government",
+      "cobiTotalBudget": 110646700,
+      "cobiFederalFunds": 85803500,
+      "cobiFederalPct": 0.775473,
+      "sefaFederalExpenditures": 53473178,
+      "tier": "High"
+    },
+    {
+      "id": "workforce-services",
+      "name": "Workforce Services",
+      "sefaName": "Workforce Services, Department of",
+      "cobiName": "Workforce Services",
+      "division": "Primary Government",
+      "cobiTotalBudget": 1526068300,
+      "cobiFederalFunds": 1121447200,
+      "cobiFederalPct": 0.73486,
+      "sefaFederalExpenditures": 1520760332,
+      "tier": "High"
+    },
+    {
+      "id": "department-of-health-and-human-services",
+      "name": "Department of Health and Human Services",
+      "sefaName": "Health and Human Services, Department of",
+      "cobiName": "Department of Health and Human Services",
+      "division": "Primary Government",
+      "cobiTotalBudget": 9898505200,
+      "cobiFederalFunds": 5692148500,
+      "cobiFederalPct": 0.575051,
+      "sefaFederalExpenditures": 4430844494,
+      "tier": "High"
+    },
+    {
+      "id": "state-board-of-education",
+      "name": "State Board of Education",
+      "sefaName": "Education, Utah State Board of",
+      "cobiName": "State Board of Education",
+      "division": "Primary Government",
+      "cobiTotalBudget": 1467491000,
+      "cobiFederalFunds": 754259500,
+      "cobiFederalPct": 0.513979,
+      "sefaFederalExpenditures": 1275517977,
+      "tier": "High"
+    },
+    {
+      "id": "environmental-quality",
+      "name": "Environmental Quality",
+      "sefaName": "Environmental Quality, Department of",
+      "cobiName": "Environmental Quality",
+      "division": "Primary Government",
+      "cobiTotalBudget": 231630300,
+      "cobiFederalFunds": 114563500,
+      "cobiFederalPct": 0.494596,
+      "sefaFederalExpenditures": 134458756,
+      "tier": "Moderate"
+    },
+    {
+      "id": "natural-resources",
+      "name": "Natural Resources",
+      "sefaName": "Natural Resources, Department of",
+      "cobiName": "Natural Resources",
+      "division": "Primary Government",
+      "cobiTotalBudget": 626739500,
+      "cobiFederalFunds": 161272900,
+      "cobiFederalPct": 0.25732,
+      "sefaFederalExpenditures": 168469060,
+      "tier": "Moderate"
+    },
+    {
+      "id": "transportation",
+      "name": "Transportation",
+      "sefaName": "Transportation, Department of",
+      "cobiName": "Transportation",
+      "division": "Primary Government",
+      "cobiTotalBudget": 3711311300,
+      "cobiFederalFunds": 882603800,
+      "cobiFederalPct": 0.237815,
+      "sefaFederalExpenditures": 584370059,
+      "tier": "Low"
+    },
+    {
+      "id": "public-safety",
+      "name": "Public Safety",
+      "sefaName": "Public Safety, Department of",
+      "cobiName": "Public Safety",
+      "division": "Primary Government",
+      "cobiTotalBudget": 523139800,
+      "cobiFederalFunds": 114062900,
+      "cobiFederalPct": 0.218035,
+      "sefaFederalExpenditures": 187661539,
+      "tier": "Low"
+    },
+    {
+      "id": "governor-s-office-of-economic-opportunity",
+      "name": "Governor's Office of Economic Opportunity",
+      "sefaName": "Governor's Office of Economic Opportunity",
+      "cobiName": "Governor's Office of Economic Opportunity",
+      "division": "Primary Government",
+      "cobiTotalBudget": 271634200,
+      "cobiFederalFunds": 45876700,
+      "cobiFederalPct": 0.168891,
+      "sefaFederalExpenditures": 37156093,
+      "tier": "Low"
+    },
+    {
+      "id": "cultural-and-community-engagement",
+      "name": "Cultural and Community Engagement",
+      "sefaName": "Cultural and Community Engagement, Department of",
+      "cobiName": "Cultural and Community Engagement",
+      "division": "Primary Government",
+      "cobiTotalBudget": 86807600,
+      "cobiFederalFunds": 14439200,
+      "cobiFederalPct": 0.166336,
+      "sefaFederalExpenditures": 19089817,
+      "tier": "Low"
+    },
+    {
+      "id": "agriculture",
+      "name": "Agriculture",
+      "sefaName": "Agriculture and Food, Department of",
+      "cobiName": "Agriculture",
+      "division": "Primary Government",
+      "cobiTotalBudget": 109760800,
+      "cobiFederalFunds": 7507800,
+      "cobiFederalPct": 0.068401,
+      "sefaFederalExpenditures": 35691665,
+      "tier": "Low"
+    },
+    {
+      "id": "department-of-government-operations",
+      "name": "Department of Government Operations",
+      "sefaName": "Governmental Operations, Department of",
+      "cobiName": "Department of Government Operations",
+      "division": "Primary Government",
+      "cobiTotalBudget": 113664900,
+      "cobiFederalFunds": 1580100,
+      "cobiFederalPct": 0.013901,
+      "sefaFederalExpenditures": 62110473,
+      "tier": "Low"
+    },
+    {
+      "id": "utah-state-university",
+      "name": "Utah State University",
+      "sefaName": "Utah State University",
+      "cobiName": "Utah State University",
+      "division": "Component Units",
+      "cobiTotalBudget": 575888000,
+      "cobiFederalFunds": 3902300,
+      "cobiFederalPct": 0.006776,
+      "sefaFederalExpenditures": 593192537,
+      "tier": "Low"
+    },
+    {
+      "id": "corrections",
+      "name": "Corrections",
+      "sefaName": "Corrections, Department of",
+      "cobiName": "Corrections",
+      "division": "Primary Government",
+      "cobiTotalBudget": 533757200,
+      "cobiFederalFunds": 0,
+      "cobiFederalPct": 0.0,
+      "sefaFederalExpenditures": 2239733,
+      "tier": "Low"
+    },
+    {
+      "id": "university-of-utah",
+      "name": "University of Utah",
+      "sefaName": "University Of Utah",
+      "cobiName": "University of Utah University of Utah University of Utah",
+      "division": "Component Units",
+      "cobiTotalBudget": 1217020500,
+      "cobiFederalFunds": 0,
+      "cobiFederalPct": 0.0,
+      "sefaFederalExpenditures": 873158717,
+      "tier": "Low"
+    },
+    {
+      "id": "utah-valley-university",
+      "name": "Utah Valley University",
+      "sefaName": "Utah Valley University",
+      "cobiName": "Utah Valley University",
+      "division": "Component Units",
+      "cobiTotalBudget": 424054900,
+      "cobiFederalFunds": 0,
+      "cobiFederalPct": 0.0,
+      "sefaFederalExpenditures": 129830726,
+      "tier": "Low"
+    },
+    {
+      "id": "weber-state-university",
+      "name": "Weber State University",
+      "sefaName": "Weber State University",
+      "cobiName": "Weber State University",
+      "division": "Component Units",
+      "cobiTotalBudget": 253360000,
+      "cobiFederalFunds": 0,
+      "cobiFederalPct": 0.0,
+      "sefaFederalExpenditures": 69492523,
+      "tier": "Low"
+    },
+    {
+      "id": "southern-utah-university",
+      "name": "Southern Utah University",
+      "sefaName": "Southern Utah University",
+      "cobiName": "Southern Utah University",
+      "division": "Component Units",
+      "cobiTotalBudget": 177094400,
+      "cobiFederalFunds": 0,
+      "cobiFederalPct": 0.0,
+      "sefaFederalExpenditures": 64501619,
+      "tier": "Low"
+    }
+  ],
+  "stressTests": [
+    {
+      "group": "Medicaid",
+      "base": 3660932393,
+      "covidEra": -17100881,
+      "shareOfSefa": 0.349309,
+      "impacts": [
+        {
+          "cutPct": 0.1,
+          "loss": 366093239
+        },
+        {
+          "cutPct": 0.25,
+          "loss": 915233098
+        },
+        {
+          "cutPct": 0.5,
+          "loss": 1830466196
+        }
+      ]
+    },
+    {
+      "group": "Highway Planning and Construction",
+      "base": 538158531,
+      "covidEra": 9577813,
+      "shareOfSefa": 0.051349,
+      "impacts": [
+        {
+          "cutPct": 0.1,
+          "loss": 53815853
+        },
+        {
+          "cutPct": 0.25,
+          "loss": 134539633
+        },
+        {
+          "cutPct": 0.5,
+          "loss": 269079266
+        }
+      ]
+    },
+    {
+      "group": "SNAP",
+      "base": 435594143,
+      "covidEra": 0,
+      "shareOfSefa": 0.041562,
+      "impacts": [
+        {
+          "cutPct": 0.1,
+          "loss": 43559414
+        },
+        {
+          "cutPct": 0.25,
+          "loss": 108898536
+        },
+        {
+          "cutPct": 0.5,
+          "loss": 217797072
+        }
+      ]
+    },
+    {
+      "group": "Unemployment Insurance",
+      "base": 371840788,
+      "covidEra": 3976242,
+      "shareOfSefa": 0.035479,
+      "impacts": [
+        {
+          "cutPct": 0.1,
+          "loss": 37184079
+        },
+        {
+          "cutPct": 0.25,
+          "loss": 92960197
+        },
+        {
+          "cutPct": 0.5,
+          "loss": 185920394
+        }
+      ]
+    },
+    {
+      "group": "National School Lunch Program",
+      "base": 339312517,
+      "covidEra": 0,
+      "shareOfSefa": 0.032376,
+      "impacts": [
+        {
+          "cutPct": 0.1,
+          "loss": 33931252
+        },
+        {
+          "cutPct": 0.25,
+          "loss": 84828129
+        },
+        {
+          "cutPct": 0.5,
+          "loss": 169656258
+        }
+      ]
+    },
+    {
+      "group": "Special Education (IDEA)",
+      "base": 291566933,
+      "covidEra": -51008,
+      "shareOfSefa": 0.02782,
+      "impacts": [
+        {
+          "cutPct": 0.1,
+          "loss": 29156693
+        },
+        {
+          "cutPct": 0.25,
+          "loss": 72891733
+        },
+        {
+          "cutPct": 0.5,
+          "loss": 145783466
+        }
+      ]
+    },
+    {
+      "group": "Child Care and Development Fund",
+      "base": 198775882,
+      "covidEra": 22076406,
+      "shareOfSefa": 0.018966,
+      "impacts": [
+        {
+          "cutPct": 0.1,
+          "loss": 19877588
+        },
+        {
+          "cutPct": 0.25,
+          "loss": 49693970
+        },
+        {
+          "cutPct": 0.5,
+          "loss": 99387941
+        }
+      ]
+    },
+    {
+      "group": "Title I Grants to LEAs",
+      "base": 161950144,
+      "covidEra": 0,
+      "shareOfSefa": 0.015453,
+      "impacts": [
+        {
+          "cutPct": 0.1,
+          "loss": 16195014
+        },
+        {
+          "cutPct": 0.25,
+          "loss": 40487536
+        },
+        {
+          "cutPct": 0.5,
+          "loss": 80975072
+        }
+      ]
+    },
+    {
+      "group": "CHIP",
+      "base": 143339643,
+      "covidEra": 0,
+      "shareOfSefa": 0.013677,
+      "impacts": [
+        {
+          "cutPct": 0.1,
+          "loss": 14333964
+        },
+        {
+          "cutPct": 0.25,
+          "loss": 35834911
+        },
+        {
+          "cutPct": 0.5,
+          "loss": 71669822
+        }
+      ]
+    },
+    {
+      "group": "TANF",
+      "base": 84246276,
+      "covidEra": 0,
+      "shareOfSefa": 0.008038,
+      "impacts": [
+        {
+          "cutPct": 0.1,
+          "loss": 8424628
+        },
+        {
+          "cutPct": 0.25,
+          "loss": 21061569
+        },
+        {
+          "cutPct": 0.5,
+          "loss": 42123138
+        }
+      ]
+    }
+  ]
+}

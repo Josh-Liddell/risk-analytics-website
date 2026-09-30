@@ -1,12 +1,8 @@
-// some of this is likely uneeded/adjustable
 .boxes {
     flex-direction: column;
     align-items: center;
-    /*max-width: 50%;*/
-    gap: 1rem;
+    gap: var(--spacing);
     min-height: 50vh;
-
-    /*background: var(--gray-light-color);*/
     width: 100%;
     display: flex;
     justify-content: center;
@@ -14,78 +10,13 @@
     text-align: center;
 }
 
-
-// scss that was copied here for this component
+// adapted from the Utah Design System website's home page
 .home-page {
-  &__benefits-section {
-    background: url('../../../../static/images/laptop-background-blur.webp') no-repeat 100% center;
-    background-size: cover;
-    min-height: 400px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: var(--spacing-3xl) 0 var(--spacing-5xl);
-    padding: 0 var(--spacing-2xl);
-    box-sizing: border-box;
-  }
-  &__card-grid {
-    max-width: var(--content-width-medium);
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    gap: var(--spacing-l);
-    margin: calc(var(--spacing-2xl) * -1) 0;
-  }
-  &__card {
-    background: white;
-    padding: var(--spacing);
-    border-radius: var(--radius-small);
-    box-shadow: var(--elevation-medium-borderless);
-
-    &-title {
-      display: flex;
-      align-items: center;
-      .icon-svg {
-        margin-right: var(--spacing-s);
-        height: var(--font-size-2xl);
-        fill: var(--secondary-color);
-      }
-      .icon-collaboration {
-        height: var(--font-size-xl);
-      }
-    }
-
-    p {
-      margin: 0;
-    }
-  }
   &__card-wide {
     grid-column: auto / span 6;
   }
   &__card-narrow {
     grid-column: auto / span 4;
-  }
-
-  &__action-cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: var(--spacing);
-
-    .action-card {
-      grid-column-start: span 2;
-      &--center {
-        grid-column-start: 2;
-        grid-column-end: 4;
-      }
-    }
-  }
-  &__gray-section {
-    background: var(--gray-light-color);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  &--accordion-small button.accordion__header * {
-    font-size: 1.1rem;
   }
 
   &__color-card-grid {
@@ -105,14 +36,6 @@
     }
     a[href]:not(.button,.action-card) {
       color: white;
-    }
-  }
-  &__contact-section {
-    padding: var(--spacing-5xl) 0;
-    text-align: center;
-    .icon-chat-bubbles {
-      fill: var(--primary-color);
-      width: 80px;
     }
   }
 }

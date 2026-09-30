@@ -15,7 +15,7 @@
 
 
   background-image:
-      linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)),
+      linear-gradient(color-mix(in srgb, white 96%, transparent), color-mix(in srgb, white 96%, transparent)),
       url('../../assets/usulogo.png');
   background-size: contain;
   background-repeat: no-repeat;

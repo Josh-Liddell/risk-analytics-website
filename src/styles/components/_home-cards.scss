@@ -1,7 +1,7 @@
 .home-cards {
   width: 100%;
   /*background: url('./assets/mountains.jpg') no-repeat 10% center;*/
-  background-color: #1A1A1A;
+  background-color: var(--gray-dark-color);
   /*background: var(--primary-color-light);*/
   /*background-size: cover;*/
   display: flex;
@@ -27,7 +27,7 @@
 .mycard {
   width: 320px;
   height: 380px;
-  background-color: #FFFFFF;
+  background-color: white;
   border-radius: 5px;
   box-sizing: border-box;
   padding: 2rem;

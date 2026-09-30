@@ -6,29 +6,23 @@ export function Hero({ children }) {
       <div className="home-banner-sidebar">
         {children}
         <div className="hero-buttons">
-          <Button
-            appearance="outlined"
-            color="none"
-            id="button-sandbox-example-id"
-            onClick={() => window.open('https://le.utah.gov/~2026/bills/static/HB0249.html', '_blank')}
+          <a
+            className="button button--outlined"
+            href="https://le.utah.gov/~2026/bills/static/HB0249.html"
+            target="_blank"
+            rel="noreferrer"
           >
             Learn More
             <span className="utds-new-tab-link-a11y">
               <span className="visually-hidden">, opens in a new tab</span>
               <span className="utds-icon-after-external-link" aria-hidden="true"></span>
             </span>
-          </Button>
+          </a>
           <Button
             appearance="solid"
             color="primary"
-            id="button-sandbox-example-id"
             onClick={() => {
-              // Find the element on the page
-                  const element = document.getElementById('boxes');
-                  if (element) {
-                    // Scroll smoothly down to it
-                    element.scrollIntoView({ behavior: 'smooth' });
-                  }
+              document.getElementById('methodology')?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
             Our process
@@ -36,6 +30,5 @@ export function Hero({ children }) {
         </div>
       </div>
     </div>
-
   );
 }

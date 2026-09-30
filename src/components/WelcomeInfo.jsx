@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export function WelcomeInfo() {
   return (
     <div className='welcome'>
@@ -9,19 +11,14 @@ export function WelcomeInfo() {
       </div>
 
       <div className="welcome-cards">
-        <button
-          class="button button--solid button--primary-color button--large"
-          id="button-sandbox-example-id"
-          type="button"
-          onClick="() => { /* ... do something ... */ }"
-        >
-          Explore interesting things here<span class="button--icon button--icon-right">
+        <Link to="/" className="button button--solid button--primary-color button--large">
+          Explore the dashboard<span className="button--icon button--icon-right">
             <span
-              class="utds-icon-after-arrow-right icon"
+              className="utds-icon-after-arrow-right icon"
               aria-hidden="true"
             ></span>
           </span>
-        </button>
+        </Link>
       </div>
     </div>
   );

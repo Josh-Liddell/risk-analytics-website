@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 scratch
+
+# Source datasets stay local and are never pushed
+/data/

@@ -14,35 +14,26 @@
 }
 
 .home-banner-sidebar {
-  /*background-color: #1A1A1A;*/
-  /*background-color: #292C33;*/
-  background: rgba(0, 0, 0, 0.7);
-  /*backdrop-filter: blur(30px) brightness(1);*/
-  /*-webkit-backdrop-filter: blur(16px) brightness(1.5);*/
+  background: color-mix(in srgb, black 70%, transparent);
 
   width: 35%;
 
-  /*clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);*/
   clip-path: polygon(0 0, 100% 0, 100% 100%, 23% 100%);
-
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
 
   /* Keeps text away from the diagonal edge */
   padding: var(--spacing-3xl) var(--spacing-3xl) var(--spacing-3xl) 15%;
 
   font-size: var(--font-size-2xl);
-  font-weight: bold;
+  font-weight: var(--font-weight-bold);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #FFFFFF;
+  color: white;
 
 }
 
 .hero-buttons {
   display: flex;
-  gap: 2rem;
+  gap: var(--spacing-xl);
 }

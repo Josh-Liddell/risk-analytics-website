@@ -2,7 +2,7 @@ import { IconsWebsite } from './IconsWebsite';
 
 export function Contact() {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="content-width">
         <IconsWebsite.IconChatBubbles isHidden />
         <h2 className="text-center mt-spacing-l">Reach out!</h2>

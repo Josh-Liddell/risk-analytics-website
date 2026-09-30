@@ -1,6 +1,6 @@
 export function Boxes() {
   return (
-    <div id="boxes" className="boxes">
+    <div id="methodology" className="boxes">
       <div className="content-width mt-spacing-l">
         <h2 className="text-center">Our Methods</h2>
         <p>
