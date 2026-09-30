@@ -1,7 +1,7 @@
 # Federal funding impact on the state of Utah
 Developed by the USU computational finance team
 
-## Design system
+<!--## Design system
 The site follows the [Utah Design System](https://designsystem.utah.gov). `npm run build` runs `npm run lint` first, which fails on hardcoded colors or pixel font sizes and spacing in `src/styles`; use UDS tokens such as `var(--primary-color)`, `var(--font-size-l)` and `var(--spacing-l)` instead. The full conventions are in `.cursor/rules/utah-design-system.mdc`.
 
 ## Updating the data
@@ -13,7 +13,7 @@ pip3 install openpyxl
 npm run data
 ```
 
-The script recomputes every published figure from the raw SEFA and COBI tabs and stops with an error if a total no longer matches the approved values.
+The script recomputes every published figure from the raw SEFA and COBI tabs and stops with an error if a total no longer matches the approved values.-->
 
 ```bash
 git clone https://github.com/Josh-Liddell/risk-analytics-website.git
