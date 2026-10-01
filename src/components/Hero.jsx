@@ -3,7 +3,7 @@ import { Button } from '@utahdts/utah-design-system';
 export function Hero({ children }) {
   return (
     <div className="hero">
-      <div className="home-banner-sidebar">
+      {/* <div className="home-banner-sidebar">
         {children}
         <div className="hero-buttons">
           <a
@@ -28,7 +28,7 @@ export function Hero({ children }) {
             Our process
           </Button>
         </div>
-      </div>
+      </div>*/}
     </div>
   );
 }

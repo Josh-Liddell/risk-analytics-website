@@ -16,10 +16,10 @@ export function About() {
 
   return (
     <main id="main-content" className="landing-page-template">
-      <Hero>
+      {/* <Hero>
         <h1>Computational Risk Analytics</h1>
         <p>For data informed governance</p>
-      </Hero>
+      </Hero>*/}
       <WelcomeInfo />
       <Boxes />
       <Contact />

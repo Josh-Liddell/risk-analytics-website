@@ -10,6 +10,8 @@ import {
   meta,
   stressTests,
 } from '../../config/federalFunds';
+import { Hero } from '../Hero';
+
 
 const EXPOSED_AGENCIES_SHOWN = 10;
 
@@ -37,6 +39,7 @@ export function HomeLanding() {
 
   return (
     <main id="main-content" className="dashboard">
+      <Hero />
       <div className="dashboard__notice">
         <div className="banner__wrapper banner--inline banner--accent-light">
           <div className="banner__message">
