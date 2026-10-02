@@ -69,10 +69,10 @@ export function App() {
             actionMenu: [
               {
                 actionUrl: {
-                  url: 'https://designsystem.utah.gov/library/utahHeader',
+                  url: 'https://usafacts.org/articles/which-states-contribute-the-most-and-least-to-federal-revenue/',
                   openInNewTab: true,
                 },
-                title: 'Utah Header',
+                title: 'USAFacts',
               },
               {
                 actionUrl: {
