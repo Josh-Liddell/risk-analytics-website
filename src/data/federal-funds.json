@@ -11,8 +11,9 @@
     },
     "caveats": [
       "Federal dependency compares SEFA federal spending with total FY2025 spending in the State's audited ACFR, counting state agencies plus colleges and universities to match the SEFA's scope.",
-      "SEFA and COBI cover different periods and concepts (actual spending vs. appropriated budget authority); their federal totals differ by about 6–15% and that gap is expected.",
-      "Only one year of data is available, so no year-over-year trends are shown.",
+      "SEFA figures count Directly Expended only; amounts provided to subrecipients are already included in it.",
+      "SEFA and COBI cover different periods and concepts (actual spending vs. appropriated budget authority), so their federal totals are expected to differ.",
+      "In the timeline, the COVID relief and loan balance series are approximate: they are matched by program name.",
       "Stress tests are flat percentage cuts, not a probability model or forecast.",
       "Universities show little federal money in COBI because research and student aid are largely outside the appropriations process."
     ],
@@ -27,34 +28,34 @@
     }
   },
   "headline": {
-    "sefaFederalTotal": 10480498629,
-    "sefaFederalExCovid": 9687495358,
-    "sefaCovidEra": 793003271,
+    "sefaFederalTotal": 9287887774,
+    "sefaFederalExCovid": 8716417461,
+    "sefaCovidEra": 571470313,
     "cobiAllFunds": 32486384400,
     "cobiFederalFunds": 9115438500,
     "cobiOwnSource": 23370945900,
     "acfrTotalSpending": 33291789000,
-    "acfrOwnSource": 22811290371,
-    "ownSourceDependency": 0.459443,
-    "ownSourceDependencyExCovid": 0.42468,
-    "federalShareOfSpending": 0.314807,
+    "acfrOwnSource": 24003901226,
+    "ownSourceDependency": 0.386932,
+    "ownSourceDependencyExCovid": 0.363125,
+    "federalShareOfSpending": 0.278984,
     "allFundsFederalShare": 0.280593,
-    "top10Total": 6225717250,
-    "top10Share": 0.594029,
-    "top10Hhi": 3692.9,
+    "top10Total": 5758421034,
+    "top10Share": 0.619993,
+    "top10Hhi": 4197.6,
     "toSubrecipients": 1192610855,
-    "viaPassThrough": 678035524,
+    "viaPassThrough": 630572117,
     "byDivision": {
-      "Component Units": 1842010086,
-      "Primary Government": 8638488543
+      "Component Units": 1705389338,
+      "Primary Government": 7582498436
     }
   },
   "areas": [
     {
       "id": "health-human-services",
       "label": "Health & Human Services",
-      "total": 5134548415,
-      "share": 0.489915,
+      "total": 4843351254,
+      "share": 0.52147,
       "federalAgencies": [
         "Department of Health and Human Services"
       ],
@@ -63,8 +64,8 @@
     {
       "id": "education",
       "label": "Education",
-      "total": 1972693393,
-      "share": 0.188225,
+      "total": 1366848277,
+      "share": 0.147165,
       "federalAgencies": [
         "Department of Agriculture",
         "Department of Education"
@@ -74,8 +75,8 @@
     {
       "id": "food-assistance-agriculture",
       "label": "Food Assistance & Agriculture",
-      "total": 657621780,
-      "share": 0.062747,
+      "total": 587522969,
+      "share": 0.063257,
       "federalAgencies": [
         "Department of Agriculture"
       ],
@@ -84,8 +85,8 @@
     {
       "id": "transportation",
       "label": "Transportation",
-      "total": 595229389,
-      "share": 0.056794,
+      "total": 576795907,
+      "share": 0.062102,
       "federalAgencies": [
         "Department of Transportation"
       ],
@@ -94,8 +95,8 @@
     {
       "id": "labor-workforce",
       "label": "Labor & Workforce",
-      "total": 402422950,
-      "share": 0.038397,
+      "total": 400757729,
+      "share": 0.043148,
       "federalAgencies": [
         "Department of Labor"
       ],
@@ -104,8 +105,8 @@
     {
       "id": "other",
       "label": "All other federal agencies (26)",
-      "total": 1717982702,
-      "share": 0.163922,
+      "total": 1512611638,
+      "share": 0.162859,
       "federalAgencies": [
         "Corporation for National and Community Service",
         "Department of Commerce",
@@ -147,7 +148,7 @@
       "cobiTotalBudget": 73263600,
       "cobiFederalFunds": 63429100,
       "cobiFederalPct": 0.865766,
-      "sefaFederalExpenditures": 58770490,
+      "sefaFederalExpenditures": 58288109,
       "tier": "High"
     },
     {
@@ -171,7 +172,7 @@
       "cobiTotalBudget": 1526068300,
       "cobiFederalFunds": 1121447200,
       "cobiFederalPct": 0.73486,
-      "sefaFederalExpenditures": 1520760332,
+      "sefaFederalExpenditures": 1398739644,
       "tier": "High"
     },
     {
@@ -183,7 +184,7 @@
       "cobiTotalBudget": 9898505200,
       "cobiFederalFunds": 5692148500,
       "cobiFederalPct": 0.575051,
-      "sefaFederalExpenditures": 4430844494,
+      "sefaFederalExpenditures": 4210324373,
       "tier": "High"
     },
     {
@@ -195,7 +196,7 @@
       "cobiTotalBudget": 1467491000,
       "cobiFederalFunds": 754259500,
       "cobiFederalPct": 0.513979,
-      "sefaFederalExpenditures": 1275517977,
+      "sefaFederalExpenditures": 659297292,
       "tier": "High"
     },
     {
@@ -207,7 +208,7 @@
       "cobiTotalBudget": 231630300,
       "cobiFederalFunds": 114563500,
       "cobiFederalPct": 0.494596,
-      "sefaFederalExpenditures": 134458756,
+      "sefaFederalExpenditures": 84419928,
       "tier": "Moderate"
     },
     {
@@ -219,7 +220,7 @@
       "cobiTotalBudget": 626739500,
       "cobiFederalFunds": 161272900,
       "cobiFederalPct": 0.25732,
-      "sefaFederalExpenditures": 168469060,
+      "sefaFederalExpenditures": 166281250,
       "tier": "Moderate"
     },
     {
@@ -231,7 +232,7 @@
       "cobiTotalBudget": 3711311300,
       "cobiFederalFunds": 882603800,
       "cobiFederalPct": 0.237815,
-      "sefaFederalExpenditures": 584370059,
+      "sefaFederalExpenditures": 566918931,
       "tier": "Low"
     },
     {
@@ -267,7 +268,7 @@
       "cobiTotalBudget": 86807600,
       "cobiFederalFunds": 14439200,
       "cobiFederalPct": 0.166336,
-      "sefaFederalExpenditures": 19089817,
+      "sefaFederalExpenditures": 11887694,
       "tier": "Low"
     },
     {
@@ -279,7 +280,7 @@
       "cobiTotalBudget": 109760800,
       "cobiFederalFunds": 7507800,
       "cobiFederalPct": 0.068401,
-      "sefaFederalExpenditures": 35691665,
+      "sefaFederalExpenditures": 34642271,
       "tier": "Low"
     },
     {
@@ -291,7 +292,7 @@
       "cobiTotalBudget": 113664900,
       "cobiFederalFunds": 1580100,
       "cobiFederalPct": 0.013901,
-      "sefaFederalExpenditures": 62110473,
+      "sefaFederalExpenditures": 62080342,
       "tier": "Low"
     },
     {
@@ -303,7 +304,7 @@
       "cobiTotalBudget": 575888000,
       "cobiFederalFunds": 3902300,
       "cobiFederalPct": 0.006776,
-      "sefaFederalExpenditures": 593192537,
+      "sefaFederalExpenditures": 543373812,
       "tier": "Low"
     },
     {
@@ -327,7 +328,7 @@
       "cobiTotalBudget": 1217020500,
       "cobiFederalFunds": 0,
       "cobiFederalPct": 0.0,
-      "sefaFederalExpenditures": 873158717,
+      "sefaFederalExpenditures": 786679250,
       "tier": "Low"
     },
     {
@@ -339,7 +340,7 @@
       "cobiTotalBudget": 424054900,
       "cobiFederalFunds": 0,
       "cobiFederalPct": 0.0,
-      "sefaFederalExpenditures": 129830726,
+      "sefaFederalExpenditures": 129508170,
       "tier": "Low"
     },
     {
@@ -370,41 +371,41 @@
   "stressTests": [
     {
       "group": "Medicaid",
-      "base": 3660932393,
-      "covidEra": -17100881,
-      "shareOfSefa": 0.349309,
+      "base": 3632304833,
+      "covidEra": -17077698,
+      "shareOfSefa": 0.39108,
       "impacts": [
         {
           "cutPct": 0.1,
-          "loss": 366093239
+          "loss": 363230483
         },
         {
           "cutPct": 0.25,
-          "loss": 915233098
+          "loss": 908076208
         },
         {
           "cutPct": 0.5,
-          "loss": 1830466196
+          "loss": 1816152416
         }
       ]
     },
     {
       "group": "Highway Planning and Construction",
-      "base": 538158531,
+      "base": 530911194,
       "covidEra": 9577813,
-      "shareOfSefa": 0.051349,
+      "shareOfSefa": 0.057162,
       "impacts": [
         {
           "cutPct": 0.1,
-          "loss": 53815853
+          "loss": 53091119
         },
         {
           "cutPct": 0.25,
-          "loss": 134539633
+          "loss": 132727798
         },
         {
           "cutPct": 0.5,
-          "loss": 269079266
+          "loss": 265455597
         }
       ]
     },
@@ -412,7 +413,7 @@
       "group": "SNAP",
       "base": 435594143,
       "covidEra": 0,
-      "shareOfSefa": 0.041562,
+      "shareOfSefa": 0.046899,
       "impacts": [
         {
           "cutPct": 0.1,
@@ -430,141 +431,141 @@
     },
     {
       "group": "Unemployment Insurance",
-      "base": 371840788,
+      "base": 370851825,
       "covidEra": 3976242,
-      "shareOfSefa": 0.035479,
+      "shareOfSefa": 0.039929,
       "impacts": [
         {
           "cutPct": 0.1,
-          "loss": 37184079
+          "loss": 37085182
         },
         {
           "cutPct": 0.25,
-          "loss": 92960197
+          "loss": 92712956
         },
         {
           "cutPct": 0.5,
-          "loss": 185920394
-        }
-      ]
-    },
-    {
-      "group": "National School Lunch Program",
-      "base": 339312517,
-      "covidEra": 0,
-      "shareOfSefa": 0.032376,
-      "impacts": [
-        {
-          "cutPct": 0.1,
-          "loss": 33931252
-        },
-        {
-          "cutPct": 0.25,
-          "loss": 84828129
-        },
-        {
-          "cutPct": 0.5,
-          "loss": 169656258
-        }
-      ]
-    },
-    {
-      "group": "Special Education (IDEA)",
-      "base": 291566933,
-      "covidEra": -51008,
-      "shareOfSefa": 0.02782,
-      "impacts": [
-        {
-          "cutPct": 0.1,
-          "loss": 29156693
-        },
-        {
-          "cutPct": 0.25,
-          "loss": 72891733
-        },
-        {
-          "cutPct": 0.5,
-          "loss": 145783466
+          "loss": 185425912
         }
       ]
     },
     {
       "group": "Child Care and Development Fund",
-      "base": 198775882,
-      "covidEra": 22076406,
-      "shareOfSefa": 0.018966,
+      "base": 182023204,
+      "covidEra": 20949506,
+      "shareOfSefa": 0.019598,
       "impacts": [
         {
           "cutPct": 0.1,
-          "loss": 19877588
+          "loss": 18202320
         },
         {
           "cutPct": 0.25,
-          "loss": 49693970
+          "loss": 45505801
         },
         {
           "cutPct": 0.5,
-          "loss": 99387941
+          "loss": 91011602
         }
       ]
     },
     {
-      "group": "Title I Grants to LEAs",
-      "base": 161950144,
+      "group": "National School Lunch Program",
+      "base": 169883491,
       "covidEra": 0,
-      "shareOfSefa": 0.015453,
+      "shareOfSefa": 0.018291,
       "impacts": [
         {
           "cutPct": 0.1,
-          "loss": 16195014
+          "loss": 16988349
         },
         {
           "cutPct": 0.25,
-          "loss": 40487536
+          "loss": 42470873
         },
         {
           "cutPct": 0.5,
-          "loss": 80975072
+          "loss": 84941746
+        }
+      ]
+    },
+    {
+      "group": "Special Education (IDEA)",
+      "base": 153173969,
+      "covidEra": -26144,
+      "shareOfSefa": 0.016492,
+      "impacts": [
+        {
+          "cutPct": 0.1,
+          "loss": 15317397
+        },
+        {
+          "cutPct": 0.25,
+          "loss": 38293492
+        },
+        {
+          "cutPct": 0.5,
+          "loss": 76586984
         }
       ]
     },
     {
       "group": "CHIP",
-      "base": 143339643,
+      "base": 143116294,
       "covidEra": 0,
-      "shareOfSefa": 0.013677,
+      "shareOfSefa": 0.015409,
       "impacts": [
         {
           "cutPct": 0.1,
-          "loss": 14333964
+          "loss": 14311629
         },
         {
           "cutPct": 0.25,
-          "loss": 35834911
+          "loss": 35779074
         },
         {
           "cutPct": 0.5,
-          "loss": 71669822
+          "loss": 71558147
+        }
+      ]
+    },
+    {
+      "group": "Title I Grants to LEAs",
+      "base": 81615748,
+      "covidEra": 0,
+      "shareOfSefa": 0.008787,
+      "impacts": [
+        {
+          "cutPct": 0.1,
+          "loss": 8161575
+        },
+        {
+          "cutPct": 0.25,
+          "loss": 20403937
+        },
+        {
+          "cutPct": 0.5,
+          "loss": 40807874
         }
       ]
     },
     {
       "group": "TANF",
-      "base": 84246276,
+      "base": 58946333,
       "covidEra": 0,
-      "shareOfSefa": 0.008038,
+      "shareOfSefa": 0.006347,
       "impacts": [
         {
           "cutPct": 0.1,
-          "loss": 8424628
+          "loss": 5894633
         },
         {
           "cutPct": 0.25,
-          "loss": 21061569
+          "loss": 14736583
         },
         {
           "cutPct": 0.5,
-          "loss": 42123138
+          "loss": 29473166
         }
       ]
     }
