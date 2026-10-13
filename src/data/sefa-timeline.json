@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "title": "Federal Funds Spent in Utah, FY2013–FY2025",
+    "footnote": "Source: State of Utah Single Audit (SEFA). Directly expended federal awards; state fiscal years (Jul–Jun).",
+    "units": "millions of dollars",
+    "realDollarsYear": 2025,
+    "derivation": "Computed from the workbook's SEFA_2013-2024 tab. Totals are Directly Expended only. Real dollars use the CPI-U factors in SEFA_Inflation_Adj C8:C20. COVID relief and loan programs are matched by program name and are approximate."
+  },
+  "years": [
+    { "fiscalYear": 2013, "totalNominal": 4510.3, "totalReal2025": 6233, "medicaid": 1439.7, "covidRelief": 0, "loanPrograms": 24.5, "passedToSubrecipients": 679.4 },
+    { "fiscalYear": 2014, "totalNominal": 4367.9, "totalReal2025": 5940, "medicaid": 1582.0, "covidRelief": 0, "loanPrograms": 9.7, "passedToSubrecipients": 654.9 },
+    { "fiscalYear": 2015, "totalNominal": 4292.1, "totalReal2025": 5830, "medicaid": 1573.5, "covidRelief": 0, "loanPrograms": -7.0, "passedToSubrecipients": 649.7 },
+    { "fiscalYear": 2016, "totalNominal": 5987.9, "totalReal2025": 8032, "medicaid": 1656.7, "covidRelief": 0, "loanPrograms": 1508.9, "passedToSubrecipients": 707.5 },
+    { "fiscalYear": 2017, "totalNominal": 6119.8, "totalReal2025": 8038, "medicaid": 1739.4, "covidRelief": 0, "loanPrograms": 1393.6, "passedToSubrecipients": 716.1 },
+    { "fiscalYear": 2018, "totalNominal": 6211.1, "totalReal2025": 7963, "medicaid": 1831.5, "covidRelief": 0, "loanPrograms": 1268.3, "passedToSubrecipients": 808.5 },
+    { "fiscalYear": 2019, "totalNominal": 6176.5, "totalReal2025": 7778, "medicaid": 1956.1, "covidRelief": 0, "loanPrograms": 1160.3, "passedToSubrecipients": 697.0 },
+    { "fiscalYear": 2020, "totalNominal": 7904.2, "totalReal2025": 9832, "medicaid": 2326.0, "covidRelief": 1119.5, "loanPrograms": 1059.0, "passedToSubrecipients": 886.7 },
+    { "fiscalYear": 2021, "totalNominal": 9697.1, "totalReal2025": 11521, "medicaid": 2795.1, "covidRelief": 2495.9, "loanPrograms": 965.1, "passedToSubrecipients": 1354.1 },
+    { "fiscalYear": 2022, "totalNominal": 10080.3, "totalReal2025": 11089, "medicaid": 3389.5, "covidRelief": 2440.8, "loanPrograms": 877.8, "passedToSubrecipients": 1698.0 },
+    { "fiscalYear": 2023, "totalNominal": 9667.6, "totalReal2025": 10215, "medicaid": 3415.2, "covidRelief": 1833.8, "loanPrograms": 867.5, "passedToSubrecipients": 1552.5 },
+    { "fiscalYear": 2024, "totalNominal": 9002.0, "totalReal2025": 9239, "medicaid": 3665.9, "covidRelief": 848.5, "loanPrograms": 294.0, "passedToSubrecipients": 1439.6 },
+    { "fiscalYear": 2025, "totalNominal": 9287.9, "totalReal2025": 9288, "medicaid": 3632.3, "covidRelief": 571.5, "loanPrograms": 361.0, "passedToSubrecipients": 1192.6 }
+  ]
+}

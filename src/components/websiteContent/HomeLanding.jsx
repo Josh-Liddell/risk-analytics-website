@@ -12,9 +12,7 @@ import {
 } from '../../config/federalFunds';
 
 import { Hero } from '../Hero';
-import { EChart } from '../EChart';
-import * as charts from '../../config/charts';
-
+import { FederalTimeline } from '../FederalTimeline';
 
 const EXPOSED_AGENCIES_SHOWN = 10;
 
@@ -323,16 +321,14 @@ export function HomeLanding() {
           </div>
         </div>
 
+        <FederalTimeline />
+
         <div className="dashboard__caveats">
           <h2>About these numbers</h2>
           <ul>
             {meta.caveats.map((caveat) => <li key={caveat}>{caveat}</li>)}
           </ul>
         </div>
-      </div>
-
-      <div className="homechart">
-        <EChart option={charts.line2} />
       </div>
 
       <div className="dashboard__credits">

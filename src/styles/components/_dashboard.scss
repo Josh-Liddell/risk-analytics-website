@@ -285,6 +285,16 @@
     }
   }
 
+  &__timeline {
+    border-radius: var(--radius-medium);
+    border-color: var(--gray-3-1-contrast);
+    padding: var(--spacing-l);
+  }
+
+  &__timeline-chart {
+    height: 24rem;
+  }
+
   &__caveats {
     border-top: 1px solid var(--gray-3-1-contrast);
     padding-top: var(--spacing-l);
