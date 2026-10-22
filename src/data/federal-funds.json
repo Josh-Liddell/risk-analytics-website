@@ -10,7 +10,7 @@
       "acfrUrl": "https://finance.utah.gov/wp-content/uploads/FY25-ACFR-FINAL-reduced-size.pdf"
     },
     "caveats": [
-      "Federal dependency compares SEFA federal spending with total FY2025 spending in the State's audited ACFR, counting state agencies plus colleges and universities to match the SEFA's scope.",
+      "Federal funds per state dollar compares SEFA federal spending with total FY2025 spending in the State's audited ACFR, counting state agencies plus colleges and universities to match the SEFA's scope.",
       "SEFA figures count Directly Expended only; amounts provided to subrecipients are already included in it.",
       "SEFA and COBI cover different periods and concepts (actual spending vs. appropriated budget authority), so their federal totals are expected to differ.",
       "In the timeline, the COVID relief series is approximate: it is matched by program name.",

@@ -5,6 +5,7 @@ import {
   agencies,
   areas,
   formatMoney,
+  formatPerDollar,
   formatPercent,
   headline,
   meta,
@@ -97,28 +98,8 @@ export function HomeLanding() {
 
         <div className="dashboard__stats">
           <StatCard
-            id="stat-dependency"
-            primary
-            label="Federal dependency"
-            value={formatPercent(headline.ownSourceDependency)}
-            note={`Federal dollars spent for every dollar of Utah's own money, ${meta.sefaFiscalYear}. ${formatPercent(headline.ownSourceDependencyExCovid)} excluding COVID-era funds.`}
-            math={{
-              operator: '÷',
-              lines: [
-                {
-                  label: `Federal money state agencies, colleges, and universities spent in ${meta.sefaFiscalYear}`,
-                  amount: formatMoney(headline.sefaFederalTotal),
-                },
-                {
-                  label: `Everything else they spent that year: ${formatMoney(headline.acfrTotalSpending)} in total spending minus the federal part`,
-                  amount: formatMoney(headline.acfrOwnSource),
-                },
-              ],
-              footnote: `Both figures are audited ${meta.acfrFiscalYear} spending. Federal money was ${formatPercent(headline.federalShareOfSpending)} of all spending. Leaving out ${formatMoney(headline.sefaCovidEra)} in COVID-era relief gives ${formatPercent(headline.ownSourceDependencyExCovid)}.`,
-            }}
-          />
-          <StatCard
             id="stat-budget-share"
+            primary
             label="Share of total appropriated budget"
             value={formatPercent(headline.allFundsFederalShare)}
             note={`${formatMoney(headline.cobiFederalFunds)} federal of ${formatMoney(headline.cobiAllFunds)}, ${meta.cobiBudgetPeriod}`}
@@ -135,6 +116,26 @@ export function HomeLanding() {
                 },
               ],
               footnote: 'Both figures come from the Legislature\'s budget, so this compares like with like.',
+            }}
+          />
+          <StatCard
+            id="stat-per-dollar"
+            label="Federal funds per state dollar"
+            value={formatPerDollar(headline.ownSourceDependency)}
+            note={`For every $1.00 Utah spent from its own funds, it also spent about ${formatPerDollar(headline.ownSourceDependency)} in federal funds, ${meta.sefaFiscalYear}. ${formatPerDollar(headline.ownSourceDependencyExCovid)} excluding COVID-era funds.`}
+            math={{
+              operator: '÷',
+              lines: [
+                {
+                  label: `Federal money state agencies, colleges, and universities spent in ${meta.sefaFiscalYear}`,
+                  amount: formatMoney(headline.sefaFederalTotal),
+                },
+                {
+                  label: `Everything else they spent that year: ${formatMoney(headline.acfrTotalSpending)} in total spending minus the federal part`,
+                  amount: formatMoney(headline.acfrOwnSource),
+                },
+              ],
+              footnote: `Both figures are audited ${meta.acfrFiscalYear} spending. Federal money was ${formatPercent(headline.federalShareOfSpending)} of all spending. Leaving out ${formatMoney(headline.sefaCovidEra)} in COVID-era relief gives ${formatPerDollar(headline.ownSourceDependencyExCovid)}.`,
             }}
           />
           <StatCard

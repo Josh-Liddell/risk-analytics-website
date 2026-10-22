@@ -10,6 +10,10 @@ export function formatMoney(dollars) {
   return `$${Math.round(dollars).toLocaleString()}`;
 }
 
+export function formatPerDollar(ratio) {
+  return `$${ratio.toFixed(2)}`;
+}
+
 export function formatPercent(ratio, digits = 1) {
   return `${(ratio * 100).toFixed(digits)}%`;
 }

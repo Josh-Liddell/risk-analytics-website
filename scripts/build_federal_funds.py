@@ -416,7 +416,7 @@ def main():
                 "acfrUrl": ACFR["url"],
             },
             "caveats": [
-                f"Federal dependency compares SEFA federal spending with total {ACFR['fiscalYear']} spending "
+                f"Federal funds per state dollar compares SEFA federal spending with total {ACFR['fiscalYear']} spending "
                 "in the State's audited ACFR, counting state agencies plus colleges and universities to "
                 "match the SEFA's scope.",
                 "SEFA figures count Directly Expended only; amounts provided to subrecipients are "
